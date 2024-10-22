@@ -59,5 +59,5 @@ if (projectId) {
         wrapper.innerHTML = content;
     }
 
-    document.title(`${project.name} | X Mostra de Profissões - FEPI 2024`)
+    document.title = `${project.name} | X Mostra de Profissões - FEPI 2024`;
 }
