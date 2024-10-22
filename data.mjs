@@ -5,7 +5,7 @@ export const projects = [
         description: "Versão web do clássico jogo Flappy Bird, onde o jogador precisa desviar de obstáculos enquanto mantém o pássaro voando. Uma implementação fiel que oferece desafio e diversão.",
         type: "Jogo",
         position: 1,
-        coverUrl: "https://github.com/bw3sley-dev/showcase-2024/blob/main/assets/flappy-bird/cover.png?raw=true",
+        coverUrl: "/assets/flappy-bird/cover.png",
         url: "../projects/flappy-bird/index.html"
     },
     {
@@ -14,7 +14,7 @@ export const projects = [
         description: "Implementação do jogo da cobrinha, em que o jogador controla a cobra que cresce ao comer os alimentos. Um clássico que testa a habilidade de reação e planejamento.",
         type: "Jogo",
         position: 2,
-        coverUrl: "https://github.com/bw3sley-dev/showcase-2024/blob/main/assets/snake/cover.png?raw=true",
+        coverUrl: "/assets/snake/cover.png",
         url: "../projects/snake/index.html"
     },
     {
@@ -23,7 +23,7 @@ export const projects = [
         description: "Versão digital do famoso jogo da velha, onde dois jogadores se enfrentam para completar uma linha, coluna ou diagonal com seus símbolos (X ou O).",
         type: "Jogo",
         position: 3,
-        coverUrl: "https://github.com/bw3sley-dev/showcase-2024/blob/main/assets/tic-tac-toe/cover.png?raw=true",
+        coverUrl: "/assets/tic-tac-toe/cover.png",
         url: "../projects/tic-tac-toe/index.html"
     },
     {
@@ -32,7 +32,7 @@ export const projects = [
         description: "Aplicação web que consome dados de uma API de Pokémons e renderiza as informações de forma amigável e visualmente organizada, permitindo a navegação por diferentes Pokémons.",
         type: "Projeto",
         position: 4,
-        coverUrl: "https://github.com/bw3sley-dev/showcase-2024/blob/main/assets/pokedex/cover.png?raw=true",
+        coverUrl: "/assets/pokedex/cover.png",
         url: "../projects/pokedex/index.html"
     },
     {
@@ -41,7 +41,7 @@ export const projects = [
         description: "Aplicação que consome uma API de filmes, exibindo de maneira dinâmica os filmes que estão em alta no momento. Ideal para quem quer se atualizar sobre os lançamentos mais populares.",
         type: "Projeto",
         position: 5,
-        coverUrl: "https://github.com/bw3sley-dev/showcase-2024/blob/main/assets/movie-ai/cover.png?raw=true",
+        coverUrl: "/assets/movie-ai/cover.png",
         url: "../projects/movie-ai/index.html"
     },
     {
@@ -50,7 +50,7 @@ export const projects = [
         description: "Aplicação interativa que permite tocar um piano virtual diretamente do navegador, simulando as notas de um piano de verdade de forma responsiva.",
         type: "Projeto",
         position: 6,
-        coverUrl: "https://github.com/bw3sley-dev/showcase-2024/blob/main/assets/piano/cover.png?raw=true",
+        coverUrl: "/assets/piano/cover.png",
         url: "../projects/piano/index.html"
     },
     {
@@ -59,7 +59,7 @@ export const projects = [
         description: "Aplicação mobile que replica a interface do aplicativo do Nubank, utilizando React Native para proporcionar uma experiência similar ao app original, com animações e navegação fluida.",
         type: "Projeto",
         position: 7,
-        coverUrl: "./assets/flappy-bird/cover.png",
+        coverUrl: "/assets/flappy-bird/cover.png",
         url: "https://www.youtube.com/embed/cceWrZlwYNc?si=hmB8CYA0mvHP-oC4"
     },
     {
