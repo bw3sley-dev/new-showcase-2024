@@ -620,9 +620,13 @@ button {
     background-color: var(--colors-border);
 }
 
-.c-course iframe {
+.c-course iframe, video {
     width: 100%;
     min-height: 400px;
+}
+
+video {
+    margin-top: 1.5rem;
 }
 
 /* <approvals> */
@@ -826,7 +830,7 @@ button {
         margin-top: unset;
     }
 
-    .c-course iframe {
+    .c-course iframe, video {
         width: 592px;
         height: 340.23px;
     }
