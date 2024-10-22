@@ -41,7 +41,7 @@ if (projectId) {
                             <p>${project.description}</p>
                         </header>
                         
-                        <a data-id="cta-watch-resolution" href="${project.url}" target="_blank" rel="noopener noreferrer" class="c-kkZDxd c-kkZDxd-DDgKx-type-secondary">Ver resultado</a>
+                        <a data-id="cta-watch-resolution" href="${project.url}" target="_blank" rel="noopener noreferrer" class="c-kkZDxd c-kkZDxd-DDgKx-type-secondary">Acessar resultado</a>
                         
                         <footer class="c-fHigTs">Os ${project.type === "Projeto" ? "projetos" : "jogos"} foram desenvolvidos por alunos da faculdade, podendo ter sido feitos durante o curso ou de forma independente.
                         </footer>
