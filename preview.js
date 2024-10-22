@@ -48,11 +48,16 @@ if (projectId) {
                     </div>
                 </div>
 
-                ${project.url.includes("youtube") ? `<iframe data-id="project-image" width="592" height="340.23" src="${project.url}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>` : 
+                ${project.url.includes("youtube") ? 
+                    `<iframe data-id="project-image" width="592" height="340.23" src="${project.url}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>` 
+                    : project.url.includes(".webm") ? 
+                    `<video controls width="592" height="340.23">
+                        <source src="${project.url}" type="video/webm">
+                        Seu navegador não suporta o elemento <code>video</code>.
+                     </video>` 
+                    : 
                     `<img alt="" src="${project.coverUrl}" data-id="project-image" width="592" height="340.23" decoding="async" data-nimg="1" style="color: transparent; animation: 1s linear 0s 1 normal none running k-feVUdh;">`
                 }
-
-                
             </section>
         `;
 

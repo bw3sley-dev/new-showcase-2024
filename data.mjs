@@ -97,5 +97,15 @@ export const projects = [
         position: 10,
         coverUrl: "/assets/be-the-hero/cover.png",
         url: "https://bw3sley-dev.github.io/not-the-hero/"
+    },
+
+    {
+        id: "finance-management",
+        name: "Gestão Financeira",
+        description: "Software de gestão financeira onde o usuário pode salvar suas notas fiscais e visualizar um balanço das suas entradas e saídas, facilitando o controle financeiro de maneira prática e organizada.",
+        type: "Projeto",
+        position: 11,
+        coverUrl: "/assets/finance-management/cover.png",
+        url: "/assets/finance-management/video.webm"
     }
 ];
