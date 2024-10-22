@@ -59,7 +59,7 @@ export const projects = [
         description: "Aplicação mobile que replica a interface do aplicativo do Nubank, utilizando React Native para proporcionar uma experiência similar ao app original, com animações e navegação fluida.",
         type: "Projeto",
         position: 7,
-        coverUrl: "/assets/flappy-bird/cover.png",
+        coverUrl: "/assets/nubank-clone/cover.png",
         url: "https://www.youtube.com/embed/cceWrZlwYNc?si=hmB8CYA0mvHP-oC4"
     },
     {
@@ -68,7 +68,7 @@ export const projects = [
         description: "Aplicação mobile que replica a interface do Spotify, desenvolvida com React Native, oferecendo uma experiência visual e interativa parecida com o aplicativo de streaming de música.",
         type: "Projeto",
         position: 8,
-        coverUrl: "/assets/flappy-bird/cover.png",
+        coverUrl: "/assets/spotify-clone/cover.png",
         url: "https://www.youtube.com/embed/B3I8nTg49t0?si=RnwB9cW3FjvfmUz-"
     }
 ];
