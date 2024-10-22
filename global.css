@@ -568,7 +568,7 @@ button {
 
 .c-fNFMJl [data-id="project-image"] {
     width: 100%;
-    height: auto;
+    min-height: 400px;
     margin-top: 1.5rem;
     border-radius: 5px;
 }
@@ -620,7 +620,7 @@ button {
 
 .c-course iframe {
     width: 100%;
-    height: auto;
+    min-height: 400px;
 }
 
 /* <approvals> */
